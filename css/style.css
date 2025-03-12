@@ -1,0 +1,133 @@
+nav a:hover, nav a:focus {
+    text-decoration: underline;
+}
+
+.skip a{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top: -40px;
+    left: -900px;
+}
+
+.skip a:focus{
+    top: 20px;
+    left: 0px;
+}
+
+:focus{
+    border: 2px solid;
+}
+
+nav {
+    background-color: darkblue; 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    
+    justify-content: center;
+
+}
+
+nav ul li {
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+#current-page{
+    
+    border: 2px solid;
+    padding: 2px;
+    
+}
+
+#main-tutoring{
+    
+    gap: 20px;
+    margin: 20px;
+    justify-items: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.tutor-color{
+    background-color: lightskyblue;
+}
+
+.tutoring-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   text-align: center;
+   justify-items: center;
+   align-items: center;
+   row-gap: 15px;
+   
+   
+}
+
+.tutoring-div{
+    grid-column: span 2;
+    border: 5px ridge darkblue;
+    border-radius: 5px;
+    padding: 10px;
+    
+    
+}
+
+.ending-tutoring{
+    grid-column: span 2;
+    border: 3px ridge pink;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+
+section img{
+    max-width: 85%;
+    border: 5px darkblue dashed;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+
+
+
