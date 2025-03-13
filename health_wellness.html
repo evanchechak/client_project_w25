@@ -7,66 +7,84 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Health and Wellness Services at Michigan</title>
 </head>
-<body>
+<body id="health-body">
     <div class="skip"><a href="#main-health-wellness">Skip to Main Content</a></div>
     <header>
-            <nav>
-                <ul>
-                    <li><a href = "index.html">Home</a></li>
-                    <li><a href = "study_spots.html">Best Places to Study at Michigan</a></li>
-                    <li><a id="current-page" href = "health_wellness.html">Health And Wellness Services</a></li>
-                    <li><a href = "tutoring.html">Tutoring at UMSI</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="study_spots.html">Best Places to Study at Michigan</a></li>
+                <li><a id="current-page" href="health_wellness.html">Health And Wellness Services</a></li>
+                <li><a href="tutoring.html">Tutoring at UMSI</a></li>
+            </ul>
+        </nav>
         <h1>Health and Wellness Services at Michigan</h1>
-
     </header>
     <main id="main-health-wellness">
-        <section>
-            <h2>List of All Available Services</h2>
-            <p>Maintaining your health and wellness is vital for academic and personal success at the University of Michigan. The campus offers a wide range of resources tailored to support your mental, physical, and emotional well-being. Here's how to make the most of these incredible resources:</p>
-            <img src="images/health_logo.png" alt="health logo">
-            <ul>
-                <li><strong>UMSI Embedded CAPS Counselor:</strong> Perfect for UMSI students seeking personalized mental health support, the embedded counselor provides a safe space for discussing challenges and building coping strategies specific to your academic journey.</li>
-                <li><strong>University Health and Counseling (UHC):</strong> Formerly known as U-M CAPS, this service offers individual and group therapy sessions, workshops, and crisis support, ensuring students have access to professional care when they need it most.</li>
+        <section class="video-section">
+            <iframe loading="lazy" title="Maize and Blue Cupboard Mission" src="https://www.youtube.com/embed/ksqfEgX8KJg?feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section class="text-section">
+            <div class="content-grid">
+                <div class="health-main-info">
+                    <h2>List of All Available Services</h2>
+                    <p>Maintaining your health and wellness is vital for academic and personal success at the University of Michigan. The campus offers a wide range of resources tailored to support your mental, physical, and emotional well-being. Here's how to make the most of these incredible resources:</p>
+                </div>
                 
-                <li><strong>Peer Counseling:</strong> Sometimes, talking to someone who understands your perspective can make all the difference. Peer counseling allows students to connect with trained peers for support and guidance in a relaxed setting.</li>
-                <li><strong>Maize & Blue Cupboard (Food Access):</strong> Ensuring students have access to nutritious meals, the Maize & Blue Cupboard provides free groceries and essential items, reducing food insecurity on campus.</li>
-                <li><strong>SilverCloud Interactive Mental Health Resources:</strong> This online platform offers self-guided programs to manage stress, anxiety, and depression, making mental health support accessible anytime and anywhere.</li>
-
-                <li><strong>University Health Services (UHS):</strong> UHS is your go-to for medical care, immunizations, and wellness check-ups. It also provides health education and advice tailored to the student population.</li>
-                <li><strong>Wolverine Support Network:</strong> This student-led initiative creates supportive peer groups for discussing challenges, sharing experiences, and building connections across the university community.</li>
-                <li><strong>Wolverine Wellness:</strong> A resource hub for promoting a balanced and healthy lifestyle, Wolverine Wellness offers workshops, individual consultations, and initiatives to enhance physical and mental well-being.</li>
-            </ul>
-            <img src="images/CAPSHand.png" alt="CAPS">
-            <iframe loading="lazy" title="Maize and Blue Cupboard Mission" width="640" height="360" src="https://www.youtube.com/embed/ksqfEgX8KJg?feature=oembed"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    
-            <p>By exploring and utilizing these resources, you can ensure you’re taking care of your well-being while navigating the challenges of academic life. From mental health support to physical health services and food security, the University of Michigan has you covered.</p>
+                <div class="service">
+                    <strong>UMSI Embedded CAPS Counselor:</strong> Perfect for UMSI students seeking personalized mental health support, the embedded counselor provides a safe space for discussing challenges and building coping strategies specific to your academic journey.
+                </div>
+                
+                <div class="service">
+                    <strong>University Health and Counseling (UHC):</strong> Formerly known as U-M CAPS, this service offers individual and group therapy sessions, workshops, and crisis support, ensuring students have access to professional care when they need it most.
+                </div>
+                
+                <div class="service">
+                    <strong>Peer Counseling:</strong> Sometimes, talking to someone who understands your perspective can make all the difference. Peer counseling allows students to connect with trained peers for support and guidance in a relaxed setting.
+                </div>
+                
+                <div class="service">
+                    <strong>Maize & Blue Cupboard (Food Access):</strong> Ensuring students have access to nutritious meals, the Maize & Blue Cupboard provides free groceries and essential items, reducing food insecurity on campus.
+                </div>
+                <div class="service">
+                    <strong>SilverCloud Interactive Mental Health Resources:</strong> This online platform offers self-guided programs to manage stress, anxiety, and depression, making mental health support accessible anytime and anywhere.
+                </div>
+                <div class="service">
+                    <strong>University Health Services (UHS):</strong> UHS is your go-to for medical care, immunizations, and wellness check-ups. It also provides health education and advice tailored to the student population.
+                </div>
+                <div class="service">
+                    <strong>Wolverine Support Network:</strong> This student-led initiative creates supportive peer groups for discussing challenges, sharing experiences, and building connections across the university community.
+                </div>
+                <div class="service" id="wolverine-wellness">
+                    <strong>Wolverine Wellness:</strong> A resource hub for promoting a balanced and healthy lifestyle, Wolverine Wellness offers workshops, individual consultations, and initiatives to enhance physical and mental well-being.
+                </div>
+                <img src="images/CAPSHand.png" alt="CAPS" id="CAPS">
+                <img src="images/health_logo.png" alt="health logo">
+                
+            </div>
         </section>
     </main>
-
-    <!-- Content taken & modified from ChatGPT with the prompt, "Generate some content about this list of UM Health and Wellness Services: UMSI Embedded CAPS Counselor
-
-University Health and Counseling (UHC) formally U-M Counseling and Psychological Services (CAPS)
-
-Peer Counseling
-
-Maize & Blue Cupboard (Food Access)
-
-SilverCloud Interactive Mental Health Resources
-
-University Health Services (UHS)
-
-Wolverine Support Network
-
-Wolverine Wellness"
-        ChatGPT. (2024). ChatGPT (4o) [Large language model]. -->
     
     <footer>
-        <p>Health and Wellness Services | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UM Health & Wellness Resources </a></p>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.instagram.com/umschoolofinformation" target="_blank">
+                    <img src="images/Instagram_icon.png.webp" alt="UMSI Instagram" class="social-icon">
+                </a>
+                <a href="https://www.si.umich.edu" target="_blank">
+                    <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Website" class="social-icon">
+                </a>
+                <a href="https://twitter.com/UMSI" target="_blank">
+                    <img src="images/Twitter-X-Logo.png" alt="UMSI Twitter" class="social-icon">
+                </a>
+            </div>
+            <div class="ums-info">
+                <p>The University of Michigan School of Information (UMSI) prepares students to lead in a digital world through education, research, and outreach. With a commitment to advancing technology and improving society, UMSI is shaping the future of information science.</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 University of Michigan School of Information. All Rights Reserved.</p>
+            </div>
+        </div>
     </footer>
-    
 </body>
-
 </html>

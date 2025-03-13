@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Student Success Portal</title>
 </head>
-<body>
+<body class="index-body">
     <div class="skip"><a href="#main-index">Skip to Main Content</a></div>
     <header>
         <nav>
@@ -33,11 +36,13 @@
                 <li>Life Outside Classroom</li>
                 <li>Contact</li>
             </ol>
+            <br>
         </section>
         <section>
             <h2>Physical Health</h2>
             <p>Keeping your body healthy is essential for success. The University of Michigan offers numerous resources to help you stay in top physical condition:</p>
             <article>
+                <br>
                 <h3>University Health Service (UHS)</h3>
                 <figure>
                     <img src="images/UHS.jpg" alt="University Health Services building">
@@ -46,6 +51,7 @@
                 <p>University Health Service (UHS): Access comprehensive medical care, including routine check-ups, vaccinations, and specialist referrals.</p>
             </article>
             <article>
+                <br>
                 <h3>Recreational Sports</h3>
                 <figure>
                     <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag.">
@@ -54,9 +60,11 @@
                 <p>Participate in various fitness programs, sports clubs, and use of gym facilities to stay active and healthy.</p>
             </article>
         </section>
-        <section>
+        <section class="index-bottom-grid">
+            <div class="index-grid-title">
             <h2>Mental Health</h2>
             <p>Maintaining your mental well-being is crucial for thriving in graduate school. Here are resources to support your mental health:</p>
+            </div>
             <article>
                 <h3>Counseling and Psychological Services (CAPS):</h3>
                 <p> Access individual counseling, group therapy, workshops, and crisis intervention services.</p>
@@ -80,24 +88,50 @@
 
         
         <section id="life-outside-classroom">
-            <h2>Life Outside the Classroom</h2>
-            <p>Graduate school is more than just academics. It's important to cultivate a balanced life. Here are some resources to help you enjoy life outside the classroom:</p>
-            <article>
-                <h3>Outside the Classroom</h3>
-            </article>
-            <ul>
-                <li><strong>Student Organizations:</strong> Join one of the many student organizations to connect with peers who share your interests and passions.</li>
-                <li><strong>Arts and Culture:</strong> Explore UM's vibrant arts scene with events, exhibitions, and performances happening year-round.</li>
-                <li><strong>Career Services:</strong> Utilize career counseling, job search resources, and networking opportunities to prepare for your professional future.</li>
-                <li><strong>Community Engagement:</strong> Get involved with local volunteering opportunities and community service projects to make a positive impact.</li>
-                <li><strong>Housing and Dining:</strong> Find information on on-campus housing options and dining services to ensure a comfortable living experience.</li>
-            </ul>
+            <div class="life-title">
+                <h2>Life Outside the Classroom</h2>
+                <p>Graduate school is more than just academics. It's important to cultivate a balanced life. Here are some resources to help you enjoy life outside the classroom:</p>
+            </div>
+            
+            <div class="life-activity">
+                <strong>Student Organizations:</strong> Join one of the many student organizations to connect with peers who share your interests and passions.
+            </div>
+            <div class="life-activity">
+                <strong>Arts and Culture:</strong> Explore UM's vibrant arts scene with events, exhibitions, and performances happening year-round.
+            </div>
+            <div class="life-activity">
+                <strong>Career Services:</strong> Utilize career counseling, job search resources, and networking opportunities to prepare for your professional future.
+            </div>
+            <div class="life-activity">
+                <strong>Community Engagement:</strong> Get involved with local volunteering opportunities and community service projects to make a positive impact.
+            </div>
+            <div class="life-activity-last">
+                <strong>Housing and Dining:</strong> Find information on on-campus housing options and dining services to ensure a comfortable living experience.
+            </div>
         </section>
         <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include academic resources, physical health resources, mental health resources, support for life outside the classroom"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
     </main>
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-        </footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.instagram.com/umschoolofinformation" target="_blank">
+                    <img src="images/Instagram_icon.png.webp" alt="UMSI Instagram" class="social-icon">
+                </a>
+                <a href="https://www.si.umich.edu" target="_blank">
+                    <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Website" class="social-icon">
+                </a>
+                <a href="https://twitter.com/UMSI" target="_blank">
+                    <img src="images/Twitter-X-Logo.png" alt="UMSI Twitter" class="social-icon">
+                </a>
+            </div>
+            <div class="ums-info">
+                <p>The University of Michigan School of Information (UMSI) prepares students to lead in a digital world through education, research, and outreach. With a commitment to advancing technology and improving society, UMSI is shaping the future of information science.</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 University of Michigan School of Information. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
