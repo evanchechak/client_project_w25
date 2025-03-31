@@ -63,8 +63,11 @@ h1 {
 }
 
 .tutor-color{
-    background-color: #00B2A9;
+    background-color: #2F65A7;
+    color: white;
 }
+
+
 
 .tutoring-section{
     display: grid;
@@ -331,6 +334,62 @@ iframe{
     .text-section{
         font-size: 20px;
     }
+
+    .tutoring-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+       text-align: center;
+       justify-items: center;
+       align-items: center;
+       row-gap: 15px;
+    }
+
+    .tutoring-div{
+        grid-column: span 4;
+        border: 5px ridge white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .ending-tutoring{
+        grid-column: span 4;
+        border: 3px ridge pink;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .math-tutoring{
+        grid-column: span 2;
+        border: 3px ridge pink;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .additional-tutoring{
+        grid-column: span 2;
+        border: 3px ridge pink;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .tutor-form{
+        grid-column: span 4;
+        margin: 5px;
+        padding: 10px;
+        border: 5px ridge white;
+    
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px; 
+        width: 50%;
+       
+        margin: 0 auto; 
+      }
+
+    
 
 
 
