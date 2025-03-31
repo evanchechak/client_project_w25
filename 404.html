@@ -1,1 +1,64 @@
-error
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>404 Error: Page Not Found</title>
+</head>
+<body class="error-body">
+    <div class="skip"><a href="#error-index">Skip to Main Content</a></div>
+    <header id="navigation-links">
+        <nav>
+            <ul>
+                <li><a id="current-page" href = "index.html">Home</a></li>
+                <li><a href = "study_spots.html">Best Places to Study at Michigan</a></li>
+                <li><a href = "health_wellness.html">Health And Wellness Services</a></li>
+                <li><a href = "tutoring.html">Tutoring at UMSI</a></li>
+            </ul>
+        </nav>
+        
+        <br>
+
+    </header>
+    <main id="error-index">
+        <div class="error-content">
+        <a href="index.html" target="_blank">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Website" class="large-icon">
+        </a>
+        <h1>Sorry, this page is not available.</h1>
+        <br>
+        <h2>Simply click the UMSI logo to return to the home page!</h2>
+    </div>
+
+        
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.instagram.com/umschoolofinformation" target="_blank">
+                    <img src="images/Instagram_icon.png.webp" alt="UMSI Instagram" class="social-icon">
+                </a>
+                <a href="https://www.si.umich.edu" target="_blank">
+                    <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Website" class="social-icon">
+                </a>
+                <a href="https://twitter.com/UMSI" target="_blank">
+                    <img src="images/Twitter-X-Logo.png" alt="UMSI Twitter" class="social-icon">
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="year"></span> University of Michigan School of Information. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+

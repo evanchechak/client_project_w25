@@ -10,8 +10,7 @@
 <body class="tutor-color">
     <div class="skip"><a href="#main-tutoring">Skip to Main Content</a></div>
 
-    <header>
-            
+    <header id="navigation-links">
             <nav>
                 <ul>
                     <li><a href = "index.html">Home</a></li>
@@ -21,7 +20,6 @@
                 </ul>
             </nav>
         <h1>Tutoring at UMSI</h1>
-
     </header>
     <main id="main-tutoring">
         <section class="tutoring-section">
@@ -64,15 +62,17 @@
                         <img src="images/Twitter-X-Logo.png" alt="UMSI Twitter" class="social-icon">
                     </a>
                 </div>
-                <div class="ums-info">
-                    <p>The University of Michigan School of Information (UMSI) prepares students to lead in a digital world through education, research, and outreach. With a commitment to advancing technology and improving society, UMSI is shaping the future of information science.</p>
-                </div>
+                
                 <div class="copyright">
-                    <p>&copy; 2025 University of Michigan School of Information. All Rights Reserved.</p>
+                    <p>&copy; <span id="year"></span> University of Michigan School of Information. All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
     
 </body>
-
 </html>
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+
